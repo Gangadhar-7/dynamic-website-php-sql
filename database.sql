@@ -1,5 +1,5 @@
-CREATE DATABASE `simple-website`;
-USE `simple-website`;
+CREATE DATABASE `simple_website`;
+USE `simple_website`;
 
 CREATE TABLE IF NOT EXISTS `mp_pages` (
   `page_id` int(11) NOT NULL AUTO_INCREMENT,
