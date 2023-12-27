@@ -10,9 +10,9 @@ define('DB_PREFIX', 'mp_');
 
 define('DB_DRIVER', 'mysql');
 define('DB_HOST', 'localhost');
-define('DB_HOST_USERNAME', 'root');
-define('DB_HOST_PASSWORD', '');
-define('DB_DATABASE', 'simple-website');
+define('DB_HOST_USERNAME', 'admin');
+define('DB_HOST_PASSWORD', 'admin123');
+define('DB_DATABASE', 'simple_website');
 
 define('SITE_NAME', 'Dynamic Website');
 
