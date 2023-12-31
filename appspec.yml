@@ -1,6 +1,7 @@
 version: 0.0
-os: ubuntu
+os: linux
 files:
   - source: /
     destination: /var/www/html
-    fileExistsBehavior: OVERWRITE
+    overwrite: true
+file_exists_behavior: OVERWRITE
