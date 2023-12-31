@@ -30,7 +30,7 @@
                         <header id="header">
                             <h1><a href="<?php echo getHomeURL(); ?>" id="logo"><?php echo SITE_NAME; ?></a></h1>
                             <nav id="nav">
-                                <a href="about-us.php" <?php echo ($currentPage == "about-us") ? ' class="current-page-item"' : '' ?> >About Us</a>
+                                <a href="about-us.php" <?php echo ($currentPage == "about-us") ? ' class="current-page-item"' : '' ?> >--About Us--</a>
                                 <a href="category.php" <?php echo ($currentPage == "category") ? ' class="current-page-item"' : '' ?>>Category</a>
                                 <a href="contact-us.php" <?php echo ($currentPage == "contact-us") ? ' class="current-page-item"' : '' ?>>Contact US</a>
                                 <a href="manage-site" target="_blank" style="text-transform: none;">CRUD operations - Admin Panel</a>
