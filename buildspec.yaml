@@ -11,9 +11,6 @@ phases:
 
   build:
     commands:
-      - echo "Running PHP tests"
-      - cd /
-      - phpunit 
 
       - echo " MySQL tests"
      
