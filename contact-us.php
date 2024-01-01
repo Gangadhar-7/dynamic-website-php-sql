@@ -23,7 +23,6 @@ if (isset($_POST["sbtn"])) {
 }
 include("header.php");
 ?>
-
 <style>
 .rows{ width:100%; height:auto; overflow:hidden; margin-bottom:10px; }
 .label{ width:100px;color:#000; float:left;padding-top:5px;}
