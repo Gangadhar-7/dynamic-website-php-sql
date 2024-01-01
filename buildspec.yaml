@@ -1,0 +1,24 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      php: 7.4
+      mysql: 8.0
+  
+  pre_build:
+    commands:
+      - echo "Pre-build steps"
+
+  build:
+    commands:
+      - echo "Running PHP tests"
+      - cd /
+      - phpunit 
+
+      - echo " MySQL tests"
+     
+
+  post_build:
+    commands:
+      - echo "Post-build steps"
