@@ -11,7 +11,6 @@ if (isset($_POST["sbtn"])) {
 	$message = wordwrap($message, 70, "\r\n");
 	
 	$to = "thesoftwareguy7@gmail.com";
-	
 	$headers = "MIME-Version: 1.0" . "\r\n";
 	$headers .= "Content-type: text/plain; charset=iso-8859-1" . "\r\n";
 	$headers .= "From: $name <$email>" . "\r\n";
