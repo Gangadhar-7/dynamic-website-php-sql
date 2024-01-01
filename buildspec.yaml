@@ -11,6 +11,8 @@ phases:
 
   build:
     commands:
+      - cd /
+      - phpunit /
 
       - echo " MySQL tests"
      
@@ -18,3 +20,5 @@ phases:
   post_build:
     commands:
       - echo "Post-build steps"
+
+  
