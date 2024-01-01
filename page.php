@@ -12,7 +12,6 @@ include("header.php");
              <h2><?php echo stripslashes($pageDetails["page_title"]); ?></h2>
             <?php echo stripslashes($pageDetails["page_desc"]); ?>
         </section>
-    
     </div>
 </div>
 <?php
