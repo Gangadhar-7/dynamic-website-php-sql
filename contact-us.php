@@ -15,7 +15,6 @@ if (isset($_POST["sbtn"])) {
 	$headers .= "Content-type: text/plain; charset=iso-8859-1" . "\r\n";
 	$headers .= "From: $name <$email>" . "\r\n";
 	$headers .= "X-Mailer: PHP/".phpversion();
-	
 	$res = @mail($to, $subject, $message, $headers);	
 	if ($res) {
 		simple_redirect("contact-us.php?msg=success");
