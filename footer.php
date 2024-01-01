@@ -5,7 +5,7 @@
 				<div class="row">
 					<div class="12u">
 						<div id="copyright">
-							<a href="https://www.linkedin.com/in/gangadhar-matta-81b49a214/" target="_blank"> Designed by Gangadhar_M || </a> &copy;<?php echo date("Y"); ?> || All rights Reserved.
+							<a href="https://www.linkedin.com/in/gangadhar-matta-81b49a214/" target="_blank"> Designed by someone|| </a> &copy;<?php echo date("Y"); ?> || All rights Reserved.
 						</div>
 					</div>
 				</div>
