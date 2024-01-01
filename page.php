@@ -1,6 +1,4 @@
 <?php
-
-
 require("libs/config.php");
 $page = easy_decrypt($_GET["id"]);
 $pageDetails = getPageDetailsByName($page);
